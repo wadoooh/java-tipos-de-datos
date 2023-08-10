@@ -15,5 +15,11 @@ public class Calculadora {
         // Operación multiplicación:
         int multiplicacion = numero1 * numero2;
         System.out.println("La multiplicación es " + multiplicacion);
+
+        // Operación división:
+        /* Es necesario que uno de los números que intervienen en la división sea double
+         para que el resultado decimal sea aproximado correctamente. **/
+        double division = (double)numero1 / numero2;
+        System.out.println("La división es " + division);
     }
 }
