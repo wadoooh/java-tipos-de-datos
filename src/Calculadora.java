@@ -1,8 +1,13 @@
+import java.util.Scanner;
+
 public class Calculadora {
     public static void main(String[] args) {
-        // Definición de 2 variables enteras:
-        int numero1 = 11;
-        int numero2 = 5;
+        Scanner lector = new Scanner(System.in);
+        // Lectura del valor de 2 variables enteras por consola:
+        System.out.println("Ingrese el número 1");
+        int numero1 = lector.nextInt();
+        System.out.println("Ingrese el número 2");
+        int numero2 = lector.nextInt();
 
         // Operación suma:
         int suma = numero1 + numero2;
