@@ -11,5 +11,9 @@ public class Calculadora {
         // Operación resta:
         int resta = numero1 - numero2;
         System.out.println("La resta es " + resta);
+
+        // Operación multiplicación:
+        int multiplicacion = numero1 * numero2;
+        System.out.println("La multiplicación es " + multiplicacion);
     }
 }
