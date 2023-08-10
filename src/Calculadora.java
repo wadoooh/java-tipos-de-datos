@@ -7,5 +7,9 @@ public class Calculadora {
         // Operación suma:
         int suma = numero1 + numero2;
         System.out.println("La suma es " + suma);
+
+        // Operación resta:
+        int resta = numero1 - numero2;
+        System.out.println("La resta es " + resta);
     }
 }
